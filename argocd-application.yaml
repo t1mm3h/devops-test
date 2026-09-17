@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: hhttps://github.com/t1mm3h/devops-test.git
+    repoURL: https://github.com/t1mm3h/devops-test.git
     targetRevision: HEAD
     path: dev
   destination:
@@ -14,8 +14,8 @@ spec:
     namespace: default
 
   syncPolicy:
-    syncOptions: 
+    syncOptions:
     - CreateNamespace=true
-    automated: 
+    automated:
       selfHeal: true
       prune: true
