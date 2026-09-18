@@ -3,13 +3,13 @@ kind: Deployment
 metadata:
   name: kiada
 spec:
-  selector: 
+  selector:
     matchLabels:
       app: kiada
-  replicas: 2
-  template: 
-    metadata: 
-      labels: 
+  replicas: 3
+  template:
+    metadata:
+      labels:
         app: kiada
     spec:
       containers:
